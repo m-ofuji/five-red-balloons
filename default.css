@@ -1,6 +1,9 @@
 * body,* img,* div,* p{
  _behavior: url("cssassist.htc");
 }
+td {
+    text-wrap:auto;
+}
 #footer{
  clear: both;
  width: auto;
@@ -40,7 +43,8 @@
  color: #6b78a9;
 }
 #page{
- width: 800px;
+ width: 100%;
+ /* overflow-x: scroll; */
  margin: 0px auto 0px 0px;
  min-height: auto;
  padding: 0px;
