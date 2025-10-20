@@ -4,6 +4,30 @@
 td {
     text-wrap:auto;
 }
+.album-header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 20px;
+}
+.album-row {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 26px;
+}
+.album-row p,
+.album-row a {
+    width: 50%;
+}
+.album-row p {
+    padding-left: 50px;
+    text-align: left;
+}
+.album-table {
+    width: 100%;
+    padding: 30px;
+}
 #footer{
  clear: both;
  width: auto;
